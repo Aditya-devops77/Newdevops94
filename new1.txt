@@ -1,1 +1,1 @@
-echo "hello everyone good night"
+echo "hello everyone"
