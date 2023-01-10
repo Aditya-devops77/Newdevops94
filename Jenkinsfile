@@ -21,6 +21,7 @@ pipeline {
                 sudo apt install docker.io -y
                 sudo systemctl start docker && sudo systemctl enable docker
                 cp -rv /artifact/student-${BUILD_ID}.war student-${BUILD_ID}.war
+                
 cat << EOF > dockerfile
 FROM tomcat
 COPY student-${BUILD_ID}.war ./webapps/
