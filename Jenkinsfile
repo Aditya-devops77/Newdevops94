@@ -1,1 +1,1 @@
-echo "hello EVeryone all ok"
+echo "hello EVeryone all great"
