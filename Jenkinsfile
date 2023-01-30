@@ -1,7 +1,6 @@
 pipeline {
     agent any
-
-    stages {
+      stages {
         stage('Git pull') {
             steps {
                 git 'https://github.com/Pritam-Khergade/student-ui.git'
